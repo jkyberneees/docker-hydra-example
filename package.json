@@ -1,0 +1,31 @@
+{
+  "name": "docker-hydra-example",
+  "version": "1.0.0",
+  "description": "example hydra app that runs in a docker container",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkyberneees/docker-hydra-example.git"
+  },
+  "keywords": [
+    "docker",
+    "hydra",
+    "restana"
+  ],
+  "author": "Rolando Santamaria Maso <kyberneees@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jkyberneees/docker-hydra-example/issues"
+  },
+  "homepage": "https://github.com/jkyberneees/docker-hydra-example#readme",
+  "dependencies": {
+    "config": "^1.25.1",
+    "hydra": "^1.2.11",
+    "hydra-integration": "^0.6.1",
+    "hydra-plugin-http": "^0.3.0",
+    "restana": "^0.3.1"
+  }
+}
